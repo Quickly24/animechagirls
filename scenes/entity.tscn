@@ -1,13 +1,11 @@
 [gd_scene format=3 uid="uid://xgi3xlpq36ti"]
 
 [ext_resource type="Script" uid="uid://b5scldvdlr2q2" path="res://entity.gd" id="1_gr72c"]
-[ext_resource type="Texture2D" uid="uid://bra2k5il2jdwv" path="res://scenes/images.jpg" id="2_m0cyi"]
+[ext_resource type="Texture2D" uid="uid://inhhhd721ddk" path="res://scenes/mech.png" id="2_gr72c"]
 
 [node name="Entity" type="Node2D" unique_id=168256712]
 script = ExtResource("1_gr72c")
 movement_range = 5
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=718451795]
-scale = Vector2(0.3, 0.3)
-skew = 0.63529986
-texture = ExtResource("2_m0cyi")
+texture = ExtResource("2_gr72c")
