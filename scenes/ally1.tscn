@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://dpj8bue68fp8n"]
+
+[ext_resource type="Script" uid="uid://b5scldvdlr2q2" path="res://entity.gd" id="1_5cihp"]
+[ext_resource type="Texture2D" uid="uid://inhhhd721ddk" path="res://scenes/mech.png" id="2_jk8ex"]
+
+[node name="ally1" type="Node2D" unique_id=168256712]
+script = ExtResource("1_5cihp")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=718451795]
+position = Vector2(10, -20)
+texture = ExtResource("2_jk8ex")
